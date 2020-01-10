@@ -1,15 +1,15 @@
 # COpenCL
 
-Linux Swift module map for OpenCL.
+Linux Swift module map for OpenCL
 
 ### Usage:
 
 Add to application's Package.swift:
 ```
-	...
-	dependencies: [
+   ...
+   dependencies: [
       // Dependencies declare other packages that this package depends on.
-      .package(url: "../COpenCL", from: "1.0.0")
+      .package(url: "https://github.com/sdrpa/COpenCL", from: "1.0.0")
    ],
    ...
 ```
